@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            display: flex ;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        form{
+            background-color: aqua;
+            padding-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10 rgb(red, green, blue) (0, 0, o);
+            width: 300px;
+        }
+        h1{
+            text-align: center;
+            color: aquamarine;
+        }
+        .form-group{
+            margin-bottom: 17px;
+        }
+        label{
+            display:block;
+            margin-bottom: Spx;
+        }
+        input,select,button{
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+
+    </style>
+</head>
+<body>
+<form action="www.destino.com" method="post">
+    <h1>Cadastro SENAI</h1>
+    <div>
+        <label for="nome">Nome</label>
+        <input type="text" id="Nome" placeholder="Nome e Sobrenome"required>
+    </div>
+    <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email"id="email" placeholder="Digite seu E-mail" required>
+    </div>
+    <div class="form-group">
+    <label for="celular">Celular</label>
+   <input type="tel" id="celular" placeholder="(00 00000000)" required>
+   <div>
+   <div class="form group">
+    <label for="data-nascimento">Data de nascimento:</label>
+    <input type="date" id="data-nascimento"min="2006-08-15"max=2024-10-05>
+<div  class="form-group">
+    <label></label> categoria:</label>
+    <div class="form-group-inline">
+        <label><input type="radio" name="tipo">estudante</label>
+        <label><input type="radio" name="tipo">professor</label>
+        <label><input type="radio" name="tipo">Funcionário </label>
+        <div>
+            <div class="form group">
+                <label><input type="checkbox">mecanica</label>
+                <label><input type="checkbox">t.i</label>
+        <div>
+<div class="form-group">
+    <label for="unidade">selecione a unidade desejada:</label>
+<select  id="unidade"required>
+    <option>Senai Sorocaba - Santa Rosália</option>
+    <option>Senai Sorocaba - Itavuvu</option>
+    <option>Senai Itu</option>
+    <label for="fato">insira sua foto</label>
+    <input type="file" id="fato">
+</div> 
+
+<div>
+</form>
+</body>
+</html>
