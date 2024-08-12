@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(216, 234, 241);
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(16, 9, 93);
+    text-align: center;
+}
+p{
+    color: rgb(5, 5, 39);
+    text-align:unset;
+    font-size: 17px;
+    font-family:cursive;
+    
+}
+img{
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    width: 550px;
+    border: 2px solid;
+    border-radius: 7px;
+    padding: 5px;
+    background-color:azure;
+    border-radius: 10px;
+  }
+
+
+  
